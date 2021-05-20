@@ -1,0 +1,42 @@
+.todo__list {
+    padding         : 50px;
+    background-color: lightblue;
+    color           : black;
+    font-size       : 16px;
+
+}
+
+.label {
+    font-size  : 16px;
+    font-weight: bold;
+    margin     : 5px;
+}
+
+.input {
+    width        : 100%;
+    padding      : 5px 15px;
+    margin       : 8px 0;
+    border-radius: 10px;
+}
+
+.button {
+    background-color: #6344c7;
+    border-radius   : 10px;
+    border          : 1px solid #1873ab;
+    display         : inline-block;
+    cursor          : pointer;
+    color           : #ffffff;
+    font-family     : Arial;
+    font-size       : 14px;
+    padding         : 10px 20px;
+    text-transform  : capitalize;
+}
+
+.button:hover {
+    background-color: #2ab0bf;
+}
+
+.button:active {
+    position: relative;
+    top     : 1px;
+}
